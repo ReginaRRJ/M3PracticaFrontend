@@ -1,0 +1,38 @@
+name: 🚀 Deploy a GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
+
+      - name: Instalación de dependencias
+        run: |
+          npm install
+
+      - name: Build de la aplicación
+        run: |
+          npm run build
+
+      - name: Configuración de GitHub Pages
+        uses: actions/configure-pages@v3
+
+      - name: Subir artefacto para deployment
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./build # Cambia si tu directorio de build es diferente
+
+      - name: Desplegar en GitHub Pages
+        uses: actions/deploy-pages@v2
