@@ -26,13 +26,20 @@ jobs:
         run: |
           npm run build
 
+      # Verificación para asegurarse de que la carpeta build existe
+      - name: Verificar carpeta build
+        run: |
+          ls -la ./build
+
       - name: Configuración de GitHub Pages
         uses: actions/configure-pages@v3
 
       - name: Subir artefacto para deployment
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
           path: ./build # Cambia si tu directorio de build es diferente
 
       - name: Desplegar en GitHub Pages
         uses: actions/deploy-pages@v2
+        with:
+          enablement: true # Habilita GitHub Pages automáticamente
