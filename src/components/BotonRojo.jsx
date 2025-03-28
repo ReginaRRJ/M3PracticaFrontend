@@ -1,6 +1,7 @@
 //import * as React from 'react'
 import { useState } from 'react'
 import Button from '@mui/material/Button'
+import PropTypes from 'prop-types'; // Importa PropTypes
 
 export default function ButtonRojo({ valorVerde }) {
     const [correcto, setCorrecto] = useState(true);
