@@ -1,10 +1,12 @@
-import { useState } from "react";
-import { Box, TextField, Button, Typography } from "@mui/material";
+//import { useState } from "react";
+import { Button, Typography } from "@mui/material";
 import BotonRojo from "./../components/BotonRojo"
 import ParrafoMensaje from "./../components/Texto"
 import { Link } from "react-router-dom";
 
-export default function Login({ setLoggeado }) {
+export default function Login(//{ setLoggeado }
+
+) {
 
   const pregunta1 = "El método GET en HTTP es para enviar datos.";
   const pregunta2 = "El Bearer Token no es un método de autorización.";

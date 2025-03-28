@@ -9,7 +9,7 @@ export default function Dashboard() {
   const titulo2 = "Ejemplos de endpont."
   const parrafo2 = "GET /usuarios → Obtiene la lista de usuarios"
   const parrafo3 = "GET /usuarios/123 → Obtiene la información del usuario con ID 123"
-  const parrafo4 = "POST /usuarios → Crea un nuevo usuario"
+  //const parrafo4 = "POST /usuarios → Crea un nuevo usuario"
 
   return (
     <>

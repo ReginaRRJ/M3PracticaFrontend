@@ -1,15 +1,15 @@
-import * as React from 'react'
-import { useState } from 'react'
+//import * as React from 'react'
+//import { useState } from 'react'
 import InputGuardar from './components/InputGuardar'
 import Footer from './components/footer'
 import Contacto from "./pages/contacto"
 
 import Dashboard from "./pages/dashboard";
 import Info from "./pages/info";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
 
-import { Box } from "@mui/material";
+//import { Box } from "@mui/material";
 
 
 function App() {
