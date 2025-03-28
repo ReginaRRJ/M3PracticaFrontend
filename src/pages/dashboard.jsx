@@ -60,7 +60,6 @@ export default function Dashboard() {
         <ParrafoMensaje mensaje={titulo2} />
         <ParrafoMensaje mensaje={parrafo2} />
         <ParrafoMensaje mensaje={parrafo3} />
-        <ParrafoMensaje mensaje={parrafo4} />
       </div>
     </>
   );
