@@ -7,6 +7,6 @@ export default function ParrafoMensaje({ mensaje }) {
 }
 
 // Definición de PropTypes para el componente Subtitulo
-Subtitulo.propTypes = {
+ParrafoMensaje.propTypes = {
     mensaje: PropTypes.string.isRequired,  // 'mensaje' debe ser una cadena de texto y es requerido
   };
