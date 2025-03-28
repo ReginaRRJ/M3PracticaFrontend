@@ -18,3 +18,7 @@ export default function ButtonRojo({ valorVerde }) {
       </div>
     );
 }
+
+ButtonRojo.propTypes = {
+  valorVerde: PropTypes.string.isRequired, // Define que 'valorVerde' debe ser una cadena de texto y es requerido
+};
