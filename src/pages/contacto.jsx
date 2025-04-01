@@ -1,7 +1,7 @@
 //import { useState } from "react";
 import { Button, Typography } from "@mui/material";
-import BotonRojo from "./../components/BotonRojo"
-import ParrafoMensaje from "./../components/Texto"
+import ButtonRojo from "./../components/botonrojo";
+import ParrafoMensaje from "./../components/Texto";
 import { Link } from "react-router-dom";
 
 export default function Login(//{ setLoggeado }
