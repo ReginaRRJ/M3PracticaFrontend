@@ -15,10 +15,10 @@ export default function Footer() {
       }}
     >
       <Typography variant="body2">
-        © {new Date().getFullYear()} Regina Reyes - A01275790 6to ITC
+        © {new Date().getFullYear()} Regina Reyes - A01275790 6to ITC PRUEBAA
       </Typography>
       <Typography variant="body2">
-        © {new Date().getFullYear()} Regina Reyes - A01275790 6to ITC
+        © {new Date().getFullYear()} Regina Reyes - A01275790 6to ITC Prueba as prueba
       </Typography>
     </Box>
   );
