@@ -17,6 +17,9 @@ export default function Footer() {
       <Typography variant="body2">
         © {new Date().getFullYear()} Regina Reyes - A01275790 6to ITC
       </Typography>
+      <Typography variant="body2">
+        © {new Date().getFullYear()} Regina Reyes - A01275790 6to ITC
+      </Typography>
     </Box>
   );
 }
