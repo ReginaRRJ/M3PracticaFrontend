@@ -1,6 +1,6 @@
 //import * as React from 'react'
 //import { useState } from 'react'
-import InputGuardar from './components/InputGuardar'
+import InputGuardar from './components/inputguardar'
 import Footer from './components/footer'
 import Contacto from "./pages/contacto"
 
