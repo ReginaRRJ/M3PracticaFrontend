@@ -1,6 +1,5 @@
 //import * as React from 'react'
 //import { useState } from 'react'
-import InputGuardar from './components/inputguardar'
 import Footer from './components/footer'
 import Contacto from "./pages/contacto"
 
@@ -8,6 +7,7 @@ import Dashboard from "./pages/dashboard";
 import Info from "./pages/info";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
+import InputGuardar from './components/InputGuardar';
 
 //import { Box } from "@mui/material";
 
