@@ -1,7 +1,7 @@
 import { Typography, Button } from "@mui/material";
 import { Link } from "react-router-dom";
-import ParrafoMensaje from "./../components/Texto"
-import Subtitulo from "./../components/Subtitulo"
+import ParrafoMensaje from "./../components/Texto";
+import Subtitulo from "./../components/subtitulo";
 
 export default function Info() {
   const sub="1. Componentes de un Endpoint en HTTPS"
