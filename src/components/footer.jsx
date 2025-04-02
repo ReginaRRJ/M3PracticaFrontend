@@ -15,7 +15,7 @@ export default function Footer() {
       }}
     >
       <Typography variant="body2">
-        © {new Date().getFullYear()} Regina Reyes - A01275790 6to ITC Tec de Mty
+        © {new Date().getFullYear()} Regina Reyes - A01275790 6to ITC Tec de Mty TEC21
       </Typography>
     </Box>
   );
