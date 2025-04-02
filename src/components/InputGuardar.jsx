@@ -20,7 +20,7 @@ export default function InputGuardar() {
   };
 
   return (
-    <Box sx={{ textAlign: "center", mt: 3 }}>
+    <Box component="InputGuardar" sx={{ textAlign: "center", mt: 3 }}>
       <Box>
         <Typography variant="h3" sx={{ mt: 5, paddingTop: 12, paddingBottom: 0 }}>
           Bienvenido
